@@ -81,6 +81,31 @@ The signup form already posts to `app/api/subscribe`. To go live:
    - `MAILERLITE_GROUP_ID` (optional, if you want subscribers added to a specific group)
 3. Redeploy. Until these are set, submissions are logged to the server console so you can still test the flow end to end.
 
+## Editing the site without touching code (`/admin`)
+
+The site ships with [Decap CMS](https://decapcms.org) at `yoursite.com/admin` — a form-based editor for writing and publishing blog posts. You log in with GitHub, fill out a form, hit publish, and it commits the `.mdx` file to your repo automatically. No terminal, no `git` commands.
+
+**One-time setup, after your first Vercel deploy:**
+
+1. **Create a GitHub OAuth App.** Go to GitHub → Settings → Developer settings → OAuth Apps → **New OAuth App**, and fill in:
+   - Application name: `Betterlife Admin` (anything you want)
+   - Homepage URL: your live site, e.g. `https://betterlife.vercel.app`
+   - Authorization callback URL: `https://betterlife.vercel.app/api/callback` (same domain, with `/api/callback` at the end)
+2. Click **Register application**, then **Generate a new client secret**. Copy both the **Client ID** and the **Client Secret** somewhere safe.
+3. In Vercel → your project → Settings → Environment Variables, add:
+   - `GITHUB_OAUTH_CLIENT_ID`
+   - `GITHUB_OAUTH_CLIENT_SECRET`
+4. Open `public/admin/config.yml` and check two lines match your real setup:
+   - `repo:` should be `your-github-username/your-repo-name`
+   - `base_url:` should be your actual live domain
+   Commit and push any changes to those two lines.
+5. Redeploy (Vercel does this automatically on push).
+6. Visit `https://your-site.com/admin`, click **Login with GitHub**, and authorize the app. You only need to redo this login occasionally, not every time.
+
+**Using it day to day:** once logged in, click **New Post**, fill in the title, description, category, image, and body, then **Publish**. It writes a new `.mdx` file straight to `content/posts/` in GitHub, which triggers a new Vercel deployment automatically. Your post is live in a minute or two, no code required.
+
+This only covers blog posts for now. Static pages (About, Contact, Privacy Policy, etc.) still live in `app/` as code, since they change rarely — let me know if you'd like those editable from `/admin` too.
+
 ## Deploying
 
 1. Push this repository to GitHub.

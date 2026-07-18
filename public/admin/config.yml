@@ -1,0 +1,47 @@
+backend:
+  name: github
+  repo: godfreyoodali-web/betterlife-
+  branch: main
+  base_url: https://betterlife-red.vercel.app
+  auth_endpoint: api/auth
+
+media_folder: "public/images/posts"
+public_folder: "/images/posts"
+
+publish_mode: simple
+
+collections:
+  - name: "posts"
+    label: "Blog Posts"
+    label_singular: "Post"
+    folder: "content/posts"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: "mdx"
+    format: "frontmatter"
+    identifier_field: "title"
+    summary: "{{title}} — {{category}} — {{publishDate}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Meta Description (17-20 words)", name: "metaDescription", widget: "text" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Budgeting & Saving", value: "budgeting-saving" }
+          - { label: "Investing Basics", value: "investing-basics" }
+          - { label: "Debt Payoff", value: "debt-payoff" }
+          - { label: "Money Mindset & Habits", value: "money-mindset" }
+          - { label: "Side Income", value: "side-income" }
+          - { label: "Printables & Trackers", value: "printables" }
+      - { label: "Publish Date", name: "publishDate", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "Updated Date", name: "updatedDate", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, required: false }
+      - { label: "Featured Image", name: "featuredImage", widget: "image" }
+      - { label: "Featured Image Alt Text", name: "featuredImageAlt", widget: "string" }
+      - label: "Key Takeaways"
+        name: "keyTakeaways"
+        widget: "list"
+        required: false
+        field: { label: "Takeaway", name: "item", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
