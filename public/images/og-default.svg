@@ -1,0 +1,12 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="lines" width="1200" height="43" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="42.5" x2="1200" y2="42.5" stroke="#16202B" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="#ECEAE2"/>
+  <rect width="1200" height="675" fill="url(#lines)"/>
+  <rect x="0" y="0" width="1200" height="14" fill="#C99A2E"/>
+  <text x="80" y="360" font-family="Georgia, serif" font-size="64" font-weight="700" fill="#16202B">BETTERLIFE</text>
+  <text x="80" y="410" font-family="monospace" font-size="20" letter-spacing="2" fill="#C99A2E">BETTERLIFE.VERCEL.APP</text>
+</svg>

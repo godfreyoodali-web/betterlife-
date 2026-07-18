@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,900&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Public Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ECEAE2;
+  color: #16202B;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #1F6F54;
+  outline-offset: 2px;
+}
+
+/* Post body typography */
+.post-body h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 1.25;
+  color: #16202B;
+  margin-top: 2.75rem;
+  margin-bottom: 1rem;
+}
+
+.post-body h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #16202B;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.post-body p {
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: #16202B;
+  margin-bottom: 1.25rem;
+}
+
+.post-body strong {
+  background: linear-gradient(transparent 62%, rgba(201, 154, 46, 0.4) 0);
+  font-weight: 600;
+}
+
+.post-body ul,
+.post-body ol {
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  margin: 0 0 1.5rem 1.25rem;
+}
+
+.post-body ul {
+  list-style: disc;
+}
+
+.post-body ol {
+  list-style: decimal;
+}
+
+.post-body li {
+  margin-bottom: 0.5rem;
+}
+
+.post-body a {
+  color: #1F6F54;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.post-body blockquote {
+  border-left: 3px solid #C99A2E;
+  padding-left: 1.25rem;
+  margin: 2rem 0;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.15rem;
+  color: #154C39;
+}
