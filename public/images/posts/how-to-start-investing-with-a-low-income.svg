@@ -1,0 +1,22 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="lines" width="1200" height="43" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="42.5" x2="1200" y2="42.5" stroke="#16202B" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="#ECEAE2"/>
+  <rect width="1200" height="675" fill="url(#lines)"/>
+  <rect x="0" y="0" width="1200" height="10" fill="#1F6F54"/>
+  <text x="60" y="80" font-family="Georgia, serif" font-weight="900" font-size="34" fill="#16202B">Small and Consistent</text>
+  <text x="60" y="112" font-family="IBM Plex Mono, monospace" font-size="15" letter-spacing="2" fill="#1F6F54">INVESTING BASICS</text>
+  
+  <text x="60" y="152" font-family="Georgia, serif" font-style="italic" font-size="18" fill="#16202B" fill-opacity="0.7">$50 a month, left alone to compound</text>
+  <line x1="60" y1="570" x2="1050" y2="570" stroke="#16202B" stroke-opacity="0.4"/>
+  <line x1="60" y1="180" x2="60" y2="570" stroke="#16202B" stroke-opacity="0.4"/>
+  <path d="M 80 560 L 280 520 L 480 440 L 680 300 L 880 140 L 1000 70 L 1000 570 L 80 570 Z" fill="#1F6F54" fill-opacity="0.12"/>
+  <path d="M 80 560 L 280 520 L 480 440 L 680 300 L 880 140 L 1000 70" fill="none" stroke="#1F6F54" stroke-width="4"/>
+  <circle cx="80" cy="560" r="5" fill="#1F6F54" stroke="#ECEAE2" stroke-width="2"/><circle cx="280" cy="520" r="5" fill="#1F6F54" stroke="#ECEAE2" stroke-width="2"/><circle cx="480" cy="440" r="5" fill="#1F6F54" stroke="#ECEAE2" stroke-width="2"/><circle cx="680" cy="300" r="5" fill="#1F6F54" stroke="#ECEAE2" stroke-width="2"/><circle cx="880" cy="140" r="5" fill="#1F6F54" stroke="#ECEAE2" stroke-width="2"/><circle cx="1000" cy="70" r="5" fill="#1F6F54" stroke="#ECEAE2" stroke-width="2"/>
+  <text x="80" y="595" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#16202B" fill-opacity="0.55">YEAR 1</text><text x="280" y="595" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#16202B" fill-opacity="0.55">YEAR 5</text><text x="480" y="595" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#16202B" fill-opacity="0.55">YEAR 10</text><text x="680" y="595" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#16202B" fill-opacity="0.55">YEAR 15</text><text x="880" y="595" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#16202B" fill-opacity="0.55">YEAR 20</text><text x="1000" y="595" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#16202B" fill-opacity="0.55">YEAR 22</text>
+  <text x="1000" y="55" text-anchor="end" font-family="Georgia, serif" font-weight="700" font-size="20" fill="#1F6F54">the growth is quiet, then obvious</text>
+  <text x="60" y="640" font-family="monospace" font-size="16" letter-spacing="2" fill="#1F6F54">BETTERLIFE.VERCEL.APP</text>
+</svg>
