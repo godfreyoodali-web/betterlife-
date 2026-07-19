@@ -1,0 +1,42 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="lines" width="1200" height="43" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="42.5" x2="1200" y2="42.5" stroke="#16202B" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="#ECEAE2"/>
+  <rect width="1200" height="675" fill="url(#lines)"/>
+  <rect x="0" y="0" width="1200" height="10" fill="#C99A2E"/>
+  <text x="60" y="80" font-family="Georgia, serif" font-weight="900" font-size="34" fill="#16202B">Seven Ways In</text>
+  <text x="60" y="112" font-family="IBM Plex Mono, monospace" font-size="15" letter-spacing="2" fill="#C99A2E">SIDE INCOME</text>
+  
+  <text x="60" y="152" font-family="Georgia, serif" font-style="italic" font-size="18" fill="#16202B" fill-opacity="0.7">Seven realistic ways to build a second income</text>
+  <rect x="60" y="185" width="380" height="410" fill="#F5F3EC" stroke="#D8D3C4" transform="rotate(-0.8 250 390)"/>
+  <text x="90" y="230" font-family="IBM Plex Mono, monospace" font-size="12" letter-spacing="2" fill="#B4472A">PICK ONE</text>
+  <text x="90" y="270" font-family="Georgia, serif" font-size="18" fill="#16202B">Not all seven.</text>
+  <text x="90" y="300" font-family="Georgia, serif" font-size="16" fill="#16202B" fill-opacity="0.75">Match it to the hours</text>
+  <text x="90" y="325" font-family="Georgia, serif" font-size="16" fill="#16202B" fill-opacity="0.75">you actually have.</text>
+  
+      <text x="470" y="210" font-family="IBM Plex Mono, monospace" font-size="16" fill="#C99A2E">01</text>
+      <text x="520" y="210" font-family="Georgia, serif" font-size="19" fill="#16202B">Freelance your day-job skill</text>
+      <line x1="470" y1="226" x2="1120" y2="226" stroke="#D8D3C4"/>
+      <text x="470" y="262" font-family="IBM Plex Mono, monospace" font-size="16" fill="#C99A2E">02</text>
+      <text x="520" y="262" font-family="Georgia, serif" font-size="19" fill="#16202B">Tutor or teach what you know</text>
+      <line x1="470" y1="278" x2="1120" y2="278" stroke="#D8D3C4"/>
+      <text x="470" y="314" font-family="IBM Plex Mono, monospace" font-size="16" fill="#C99A2E">03</text>
+      <text x="520" y="314" font-family="Georgia, serif" font-size="19" fill="#16202B">Sell a digital product once</text>
+      <line x1="470" y1="330" x2="1120" y2="330" stroke="#D8D3C4"/>
+      <text x="470" y="366" font-family="IBM Plex Mono, monospace" font-size="16" fill="#C99A2E">04</text>
+      <text x="520" y="366" font-family="Georgia, serif" font-size="19" fill="#16202B">Rideshare or delivery driving</text>
+      <line x1="470" y1="382" x2="1120" y2="382" stroke="#D8D3C4"/>
+      <text x="470" y="418" font-family="IBM Plex Mono, monospace" font-size="16" fill="#C99A2E">05</text>
+      <text x="520" y="418" font-family="Georgia, serif" font-size="19" fill="#16202B">Flip items for resale</text>
+      <line x1="470" y1="434" x2="1120" y2="434" stroke="#D8D3C4"/>
+      <text x="470" y="470" font-family="IBM Plex Mono, monospace" font-size="16" fill="#C99A2E">06</text>
+      <text x="520" y="470" font-family="Georgia, serif" font-size="19" fill="#16202B">Virtual assistant work</text>
+      <line x1="470" y1="486" x2="1120" y2="486" stroke="#D8D3C4"/>
+      <text x="470" y="522" font-family="IBM Plex Mono, monospace" font-size="16" fill="#C99A2E">07</text>
+      <text x="520" y="522" font-family="Georgia, serif" font-size="19" fill="#16202B">Rent out something you own</text>
+      <line x1="470" y1="538" x2="1120" y2="538" stroke="#D8D3C4"/>
+  <text x="60" y="640" font-family="monospace" font-size="16" letter-spacing="2" fill="#C99A2E">BETTERLIFE.VERCEL.APP</text>
+</svg>
