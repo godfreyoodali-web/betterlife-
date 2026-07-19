@@ -1,0 +1,34 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="lines" width="1200" height="43" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="42.5" x2="1200" y2="42.5" stroke="#16202B" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="#ECEAE2"/>
+  <rect width="1200" height="675" fill="url(#lines)"/>
+  <rect x="0" y="0" width="1200" height="10" fill="#B4472A"/>
+  <text x="60" y="80" font-family="Georgia, serif" font-weight="900" font-size="34" fill="#16202B">Snowball vs. Avalanche</text>
+  <text x="60" y="112" font-family="IBM Plex Mono, monospace" font-size="15" letter-spacing="2" fill="#B4472A">DEBT PAYOFF</text>
+  
+  <text x="60" y="152" font-family="Georgia, serif" font-style="italic" font-size="18" fill="#16202B" fill-opacity="0.7"></text>
+  
+    <text x="90" y="150" font-family="Georgia, serif" font-weight="700" font-size="24" fill="#16202B">SNOWBALL</text>
+    <rect x="90" y="440" width="90" height="120" fill="#C99A2E" fill-opacity="0.45" stroke="#16202B" stroke-opacity="0.15"/>
+      <text x="135" y="430" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" fill="#16202B">1</text><rect x="200" y="340" width="90" height="220" fill="#C99A2E" fill-opacity="0.63" stroke="#16202B" stroke-opacity="0.15"/>
+      <text x="245" y="330" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" fill="#16202B">2</text><rect x="310" y="220" width="90" height="340" fill="#C99A2E" fill-opacity="0.81" stroke="#16202B" stroke-opacity="0.15"/>
+      <text x="355" y="210" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" fill="#16202B">3</text><rect x="420" y="40" width="90" height="520" fill="#C99A2E" fill-opacity="0.99" stroke="#16202B" stroke-opacity="0.15"/>
+      <text x="465" y="30" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" fill="#16202B">4</text>
+    <line x1="80" y1="560" x2="520" y2="560" stroke="#16202B" stroke-width="2"/>
+  <text x="90" y="600" font-family="IBM Plex Mono, monospace" font-size="13" fill="#16202B" fill-opacity="0.6">smallest balance first</text>
+  
+    <text x="660" y="150" font-family="Georgia, serif" font-weight="700" font-size="24" fill="#16202B">AVALANCHE</text>
+    <rect x="660" y="40" width="90" height="520" fill="#B4472A" fill-opacity="0.45" stroke="#16202B" stroke-opacity="0.15"/>
+      <text x="705" y="30" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" fill="#16202B">1</text><rect x="770" y="220" width="90" height="340" fill="#B4472A" fill-opacity="0.63" stroke="#16202B" stroke-opacity="0.15"/>
+      <text x="815" y="210" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" fill="#16202B">2</text><rect x="880" y="340" width="90" height="220" fill="#B4472A" fill-opacity="0.81" stroke="#16202B" stroke-opacity="0.15"/>
+      <text x="925" y="330" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" fill="#16202B">3</text><rect x="990" y="440" width="90" height="120" fill="#B4472A" fill-opacity="0.99" stroke="#16202B" stroke-opacity="0.15"/>
+      <text x="1035" y="430" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" fill="#16202B">4</text>
+    <line x1="650" y1="560" x2="1090" y2="560" stroke="#16202B" stroke-width="2"/>
+  <text x="660" y="600" font-family="IBM Plex Mono, monospace" font-size="13" fill="#16202B" fill-opacity="0.6">highest interest first</text>
+  <line x1="600" y1="140" x2="600" y2="570" stroke="#D8D3C4" stroke-width="2"/>
+  <text x="60" y="640" font-family="monospace" font-size="16" letter-spacing="2" fill="#B4472A">BETTERLIFE.VERCEL.APP</text>
+</svg>
