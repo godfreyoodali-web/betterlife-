@@ -28,8 +28,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="font-body bg-paper text-ink antialiased">
-        <Header />
+     <head>
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3985719102877512" crossorigin="anonymous"></script>
+        </head>
+        <body className="font-body bg-paper text-ink antialiased"><Header />
         <main>{children}</main>
         <Footer />
       </body>
