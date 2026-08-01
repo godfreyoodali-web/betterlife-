@@ -11,7 +11,7 @@ export default function CookiePolicyPage() {
       <h1 className="font-display font-black text-4xl text-ink mb-8">Cookie Policy</h1>
       <div className="post-body">
         <p>
-          Last updated: replace this line with your actual publish date before launch.
+          Last updated: July 24, 2026.
         </p>
         <h2>What cookies are</h2>
         <p>
