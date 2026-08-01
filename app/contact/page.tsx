@@ -16,10 +16,11 @@ export default function ContactPage() {
         days.
       </p>
       <a
-        href="mailto:hello@betterlife.example"
+        href="mailto:betterlife.ver01@gmail.com"
         className="inline-flex items-center rounded-sm bg-ink px-5 py-3 font-mono text-xs uppercase tracking-wider text-paperlight hover:bg-pinedark transition-colors"
       >
-        hello@betterlife.example
+        betterlife.ver01@gmail.com
+  
       </a>
     </div>
   );
